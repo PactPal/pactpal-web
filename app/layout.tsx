@@ -6,15 +6,31 @@ import { Footer } from "@/components/Footer";
 import { SITE } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: `${SITE.name} - ${SITE.tagline}`,
+  title: `${SITE.name} — ${SITE.tagline}`,
   description:
-    "PactPal is an accountability engine. Create or join a pod, check in daily, and build consistency through real social pressure.",
+    "Build better habits through real accountability. Join a pod, check in daily, and turn consistency into identity with PactPal.",
   metadataBase: new URL(`https://${SITE.domain}`),
+
   openGraph: {
-    title: `${SITE.name} - ${SITE.tagline}`,
+    title: `${SITE.name} — ${SITE.tagline}`,
     description:
-      "Join a pod. Check in daily. Consistency becomes identity.",
+      "Stop relying on motivation. Build consistency through real accountability.",
+    url: `https://${SITE.domain}`,
+    siteName: SITE.name,
     type: "website",
+    locale: "en_US",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: `${SITE.name} — ${SITE.tagline}`,
+    description:
+      "Stop relying on motivation. Build consistency through real accountability.",
+  },
+
+  robots: {
+    index: true,
+    follow: true,
   },
 };
 
@@ -23,7 +39,7 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
-      <body className="min-h-screen bg-slate-950 text-white">
+      <body className="min-h-screen bg-slate-950 text-white antialiased">
         <Header />
         <main>{children}</main>
         <Footer />
