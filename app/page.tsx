@@ -196,7 +196,6 @@ export default function HomePage() {
                   <br /><br />
                   If you're looking for daily quotes, look elsewhere. If you're looking for a group that <span className="text-white font-medium">won't let you quit</span>, you're in the right place.
                   </p>
-                </p>
               </div>
 
               <div className="mt-8">
