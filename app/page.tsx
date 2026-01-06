@@ -187,12 +187,12 @@ export default function HomePage() {
               </p>
 
               <div className="mt-8 rounded-2xl border border-white/10 bg-white/5 p-6">
-                <div className="mb-3 text-sm font-semibold uppercase tracking-wider text-white">
+                <div className="mb-2 text-sm font-semibold uppercase tracking-wider text-white">
                   The PactPal Standard
                 </div>
-                <p className="text-sm leading-relaxed text-slate-300">
+                <p className="text-sm leading-snug text-slate-300">
                   We aren't a tracking app. We are an <span className="text-white font-medium">accountability system</span>.
-                  <br /><br />
+                  <br />
                   If you're looking for daily quotes, look elsewhere. If you're looking for a group that <span className="text-white font-medium">won't let you quit</span>, you're in the right place.
                 </p>
               </div>
