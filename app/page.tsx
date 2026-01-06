@@ -56,7 +56,7 @@ function Stat({
 
 export default function HomePage() {
   return (
-    <div>
+    <div className="bg-slate-950 min-h-screen">
       {/* HERO */}
       <section className="relative overflow-hidden">
         <div className="pointer-events-none absolute inset-0 opacity-40">
@@ -171,10 +171,10 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Ecosystem section (you already added) */}
+      {/* Ecosystem section */}
       <EcosystemSection />
 
-      {/* Trust & Credibility block (Phase 2) */}
+      {/* Trust & Credibility block */}
       <section className="border-t border-white/10 bg-slate-950">
         <div className="mx-auto max-w-6xl px-4 py-16">
           <div className="rounded-3xl border border-white/10 bg-white/5 p-8 md:p-10">
@@ -183,21 +183,19 @@ export default function HomePage() {
                 Built for people who are serious about change.
               </h2>
               <p className="mt-4 text-slate-300">
-                Not motivation. Not hacks. Just structure, accountability, and
-                consistency.
+                Not motivation. Not hacks. Just structure, accountability, and consistency.
               </p>
 
-              <div className="mt-6 rounded-2xl border border-white/10 bg-white/5 p-5">
-                <div className="text-sm font-semibold text-white">
+              <div className="mt-8 rounded-2xl border border-white/10 bg-white/5 p-6">
+                <div className="mb-3 text-sm font-semibold uppercase tracking-wider text-white">
                   The PactPal Standard
-                <div className="rounded-xl border border-white/10 bg-white/5 p-4"> 
-  {/* Ensure the container above exists to hold the text */}
-  <p className="text-sm leading-relaxed text-slate-300">
-    We aren't a tracking app. We are an <span className="text-white font-medium">accountability system</span>.
-    <br /><br />
-    If you're looking for daily quotes, look elsewhere. If you're looking for a group that <span className="text-white font-medium">won't let you quit</span>, you're in the right place.
-  </p>
-</div>
+                </div>
+                <p className="text-sm leading-relaxed text-slate-300">
+                  We aren't a tracking app. We are an <span className="text-white font-medium">accountability system</span>.
+                  <br /><br />
+                  If you're looking for daily quotes, look elsewhere. If you're looking for a group that <span className="text-white font-medium">won't let you quit</span>, you're in the right place.
+                </p>
+              </div>
 
               <div className="mt-8">
                 <PrimaryCta href="/download" />
