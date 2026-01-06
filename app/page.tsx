@@ -191,9 +191,11 @@ export default function HomePage() {
                 <div className="text-sm font-semibold text-white">
                   The PactPal Standard
                 </div>
-                <p className="mt-2 text-sm text-slate-300">
-                  We aren't a streak-tracking app. We are an accountability system.
-                  If you're looking for daily quotes, look elsewhere.If you're looking for a group that won't let you quit, you're in the right place.
+                <p className="mt-2 text-sm leading-relaxed text-slate-300">
+                  We aren't a tracking app. We are an <span className="text-white font-medium">accountability system</span>.
+                  <br /><br />
+                  If you're looking for daily quotes, look elsewhere. If you're looking for a group that <span className="text-white font-medium">won't let you quit</span>, you're in the right place.
+                  </p>
                 </p>
               </div>
 
