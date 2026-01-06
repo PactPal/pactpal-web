@@ -190,13 +190,14 @@ export default function HomePage() {
               <div className="mt-6 rounded-2xl border border-white/10 bg-white/5 p-5">
                 <div className="text-sm font-semibold text-white">
                   The PactPal Standard
-                </div>
-                <p className="mt-2 text-sm leading-relaxed text-slate-300">
-                  We aren't a tracking app. We are an <span className="text-white font-medium">accountability system</span>.
-                  <br /><br />
-                  If you're looking for daily quotes, look elsewhere. If you're looking for a group that <span className="text-white font-medium">won't let you quit</span>, you're in the right place.
-                  </p>
-              </div>
+                <div className="rounded-xl border border-white/10 bg-white/5 p-4"> 
+  {/* Ensure the container above exists to hold the text */}
+  <p className="text-sm leading-relaxed text-slate-300">
+    We aren't a tracking app. We are an <span className="text-white font-medium">accountability system</span>.
+    <br /><br />
+    If you're looking for daily quotes, look elsewhere. If you're looking for a group that <span className="text-white font-medium">won't let you quit</span>, you're in the right place.
+  </p>
+</div>
 
               <div className="mt-8">
                 <PrimaryCta href="/download" />
