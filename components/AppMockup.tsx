@@ -55,7 +55,7 @@ export function AppMockup() {
         </Card>
       </div>
 
-      <div className="pointer-events-none absolute -inset-2 rounded-[28px] bg-gradient-to-r from-sky-500/15 to-emerald-400/15 blur-2xl" />
+      <div className="pointer-events-none absolute -inset-2 rounded-[28px] bg-gradient-to-r from-sky-500/20 to-emerald-400/30 blur-2xl" />
     </div>
   );
 }
